@@ -12,8 +12,6 @@ Future plans include:
 
 __version__  = '0.1.4 spm1d'   #(2016.10.01)
 
-from . import data, distributions, geom, prob, random
-
 randn1d      = random.randn1d
 multirandn1d = random.multirandn1d
 
