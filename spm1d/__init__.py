@@ -22,3 +22,10 @@ __version__ = "0.4.17 (2022-12-09)"
 
 
 __all__ = ["data", "io", "plot", "rft1d", "stats", "util"]
+
+from spm1d import data
+from spm1d import io
+from spm1d import plot
+from spm1d import rft1d
+from spm1d import stats
+from spm1d import util
