@@ -1,2 +1,8 @@
-from spm1d.data import uv0d, mv0d
-from spm1d.data import uv1d, mv1d
+
+from . import uv0d, mv0d
+from . import uv1d, mv1d
+
+
+
+
+

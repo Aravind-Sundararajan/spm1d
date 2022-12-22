@@ -1,4 +1,6 @@
-"""
+
+
+'''
 spm1D: A Python package for 1D Statistical Parametric Mapping
 
 Useful references include:
@@ -15,17 +17,18 @@ probabilities in Python, Journal of Statistical Software, in press.
 
 
 Copyright (C) 2022  Todd Pataky
-"""
+'''
 
 
-__version__ = "0.4.17 (2022-12-09)"
+__version__ = '0.4.17 (2022-12-09)'
 
 
-__all__ = ["data", "io", "plot", "rft1d", "stats", "util"]
+__all__ = ['data', 'io', 'plot', 'rft1d', 'stats', 'util']
 
-from spm1d import data
-from spm1d import io
-from spm1d import plot
-from spm1d import rft1d
-from spm1d import stats
-from spm1d import util
+from . import data
+from . import io
+from . import plot
+from . import rft1d
+from . import stats
+from . import util
+
