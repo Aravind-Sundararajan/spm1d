@@ -1,8 +1,1 @@
-
-from . import uv0d, mv0d
-from . import uv1d, mv1d
-
-
-
-
-
+from spm1d.data import uv0d, mv0d, uv1d, mv1d
