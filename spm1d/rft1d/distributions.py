@@ -105,7 +105,7 @@ All distributions share the following functions:
 
 import numpy as np
 from scipy import stats
-from . prob import RFTCalculator, RFTCalculatorResels
+from spm1d.rft1d.prob import RFTCalculator, RFTCalculatorResels
 
 
 def add_docstrings(distname, ndf=0):
