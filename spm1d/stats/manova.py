@@ -7,7 +7,7 @@ MANOVA
 
 from math import sqrt, log
 import numpy as np
-from spm1d.stats.manova import _mvbase, _spm
+from spm1d.stats import _mvbase, _spm
 
 eps = np.finfo(
     float
